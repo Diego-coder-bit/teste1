@@ -1,0 +1,45 @@
+body {
+    font-family: Arial; /* fonte da pagina em arial*/
+    background-color: #12b2ec;/* cor da pagina azul*/
+}
+
+header {
+    background-color: #333333;/* fundo da lista na cor preta*/
+    padding: 10px 0; /* recuo para a lista*/
+}
+
+nav ul {
+    list-style: none; /* lista sem marcadores*/
+    text-align: center; /* lista alinhada no centro*/
+}
+
+nav ul li {
+    display: inline;/* lista sem quebra de linha*/
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* cor dos links bracno*/
+}
+
+main { /* caixa branca para o conteudo da pagina com cantos arredondados*/
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+form {/* elementos do formulario alinhados verticalmente*/
+    display: flex;
+    flex-direction: column; 
+}
+
+form label, form input, form textarea {/* espaçamento entre elementos*/
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    
+}
